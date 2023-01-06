@@ -19,10 +19,5 @@ pipeline {
                 sh "mvn package"
             }
         }
-        stage('bye') {
-            steps {
-                echo 'finished'
-            }
-        }
     }
 }
